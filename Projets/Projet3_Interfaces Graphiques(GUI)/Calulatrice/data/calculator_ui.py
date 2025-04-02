@@ -1,0 +1,147 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'calculator.ui'
+##
+## Created by: Qt User Interface Compiler version 6.8.3
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
+    QMenuBar, QPushButton, QSizePolicy, QStatusBar,
+    QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(219, 201)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.bouton_divise = QPushButton(self.centralwidget)
+        self.bouton_divise.setObjectName(u"bouton_divise")
+        self.bouton_divise.setGeometry(QRect(160, 90, 51, 31))
+        font = QFont()
+        font.setFamilies([u"Comic Sans MS"])
+        font.setBold(False)
+        self.bouton_divise.setFont(font)
+        self.bouton_egal = QPushButton(self.centralwidget)
+        self.bouton_egal.setObjectName(u"bouton_egal")
+        self.bouton_egal.setGeometry(QRect(160, 120, 51, 31))
+        self.bouton_egal.setFont(font)
+        self.bouton_5 = QPushButton(self.centralwidget)
+        self.bouton_5.setObjectName(u"bouton_5")
+        self.bouton_5.setGeometry(QRect(60, 60, 51, 31))
+        self.bouton_5.setFont(font)
+        self.bouton_2 = QPushButton(self.centralwidget)
+        self.bouton_2.setObjectName(u"bouton_2")
+        self.bouton_2.setGeometry(QRect(60, 90, 51, 31))
+        self.bouton_2.setFont(font)
+        self.bouton_0 = QPushButton(self.centralwidget)
+        self.bouton_0.setObjectName(u"bouton_0")
+        self.bouton_0.setGeometry(QRect(60, 120, 51, 31))
+        self.bouton_0.setFont(font)
+        self.bouton_9 = QPushButton(self.centralwidget)
+        self.bouton_9.setObjectName(u"bouton_9")
+        self.bouton_9.setGeometry(QRect(110, 30, 51, 31))
+        self.bouton_9.setFont(font)
+        self.bouton_6 = QPushButton(self.centralwidget)
+        self.bouton_6.setObjectName(u"bouton_6")
+        self.bouton_6.setGeometry(QRect(110, 60, 51, 31))
+        self.bouton_6.setFont(font)
+        self.bouton_3 = QPushButton(self.centralwidget)
+        self.bouton_3.setObjectName(u"bouton_3")
+        self.bouton_3.setGeometry(QRect(110, 90, 51, 31))
+        self.bouton_3.setFont(font)
+        self.bouton_virgule = QPushButton(self.centralwidget)
+        self.bouton_virgule.setObjectName(u"bouton_virgule")
+        self.bouton_virgule.setGeometry(QRect(110, 120, 51, 31))
+        self.bouton_virgule.setFont(font)
+        self.bouton_plus = QPushButton(self.centralwidget)
+        self.bouton_plus.setObjectName(u"bouton_plus")
+        self.bouton_plus.setGeometry(QRect(160, 0, 51, 31))
+        self.bouton_plus.setFont(font)
+        self.bouton_moins = QPushButton(self.centralwidget)
+        self.bouton_moins.setObjectName(u"bouton_moins")
+        self.bouton_moins.setGeometry(QRect(160, 30, 51, 31))
+        self.bouton_moins.setFont(font)
+        self.bouton_fois = QPushButton(self.centralwidget)
+        self.bouton_fois.setObjectName(u"bouton_fois")
+        self.bouton_fois.setGeometry(QRect(160, 60, 51, 31))
+        self.bouton_fois.setFont(font)
+        self.bouton_7 = QPushButton(self.centralwidget)
+        self.bouton_7.setObjectName(u"bouton_7")
+        self.bouton_7.setGeometry(QRect(10, 30, 51, 31))
+        self.bouton_7.setFont(font)
+        self.bouton_4 = QPushButton(self.centralwidget)
+        self.bouton_4.setObjectName(u"bouton_4")
+        self.bouton_4.setGeometry(QRect(10, 60, 51, 31))
+        self.bouton_4.setFont(font)
+        self.bouton_1 = QPushButton(self.centralwidget)
+        self.bouton_1.setObjectName(u"bouton_1")
+        self.bouton_1.setGeometry(QRect(10, 90, 51, 31))
+        self.bouton_1.setFont(font)
+        self.bouton_8 = QPushButton(self.centralwidget)
+        self.bouton_8.setObjectName(u"bouton_8")
+        self.bouton_8.setGeometry(QRect(60, 30, 51, 31))
+        self.bouton_8.setFont(font)
+        self.bouton_clear = QPushButton(self.centralwidget)
+        self.bouton_clear.setObjectName(u"bouton_clear")
+        self.bouton_clear.setGeometry(QRect(10, 120, 51, 31))
+        self.bouton_clear.setFont(font)
+        self.display = QLineEdit(self.centralwidget)
+        self.display.setObjectName(u"display")
+        self.display.setGeometry(QRect(10, -1, 151, 31))
+        self.display.setFont(font)
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(20, 160, 191, 21))
+        font1 = QFont()
+        font1.setFamilies([u"Comic Sans MS"])
+        font1.setPointSize(11)
+        self.label.setFont(font1)
+        self.label.setAlignment(Qt.AlignCenter)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 219, 18))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.bouton_divise.setText(QCoreApplication.translate("MainWindow", u"/", None))
+        self.bouton_egal.setText(QCoreApplication.translate("MainWindow", u"=", None))
+        self.bouton_5.setText(QCoreApplication.translate("MainWindow", u"5", None))
+        self.bouton_2.setText(QCoreApplication.translate("MainWindow", u"2", None))
+        self.bouton_0.setText(QCoreApplication.translate("MainWindow", u"0", None))
+        self.bouton_9.setText(QCoreApplication.translate("MainWindow", u"9", None))
+        self.bouton_6.setText(QCoreApplication.translate("MainWindow", u"6", None))
+        self.bouton_3.setText(QCoreApplication.translate("MainWindow", u"3", None))
+        self.bouton_virgule.setText(QCoreApplication.translate("MainWindow", u".", None))
+        self.bouton_plus.setText(QCoreApplication.translate("MainWindow", u"+", None))
+        self.bouton_moins.setText(QCoreApplication.translate("MainWindow", u"-", None))
+        self.bouton_fois.setText(QCoreApplication.translate("MainWindow", u"*", None))
+        self.bouton_7.setText(QCoreApplication.translate("MainWindow", u"7", None))
+        self.bouton_4.setText(QCoreApplication.translate("MainWindow", u"4", None))
+        self.bouton_1.setText(QCoreApplication.translate("MainWindow", u"1", None))
+        self.bouton_8.setText(QCoreApplication.translate("MainWindow", u"8", None))
+        self.bouton_clear.setText(QCoreApplication.translate("MainWindow", u"C", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"Calculatrice de No\u00e9", None))
+    # retranslateUi
+

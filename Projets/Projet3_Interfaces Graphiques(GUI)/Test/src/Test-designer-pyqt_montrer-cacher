@@ -1,0 +1,9 @@
+import sys # Importer le module sys
+from PyQt6 import QtWidgets, uic # Importer les modules QtWidgets et uic
+
+app = QtWidgets.QApplication(sys.argv) # Créer une application Qt
+maFenetre = uic.loadUi("C:\\Users\\noeva\\OneDrive\\Bureau\\Python\\Interface Graphique\\Test\\Test-pyqt-designer.ui") # Charger le fichier UI
+maFenetre.show() # Afficher la fenêtre
+app.exec() # Exécuter l'application
+
+#action défini avec qt designer
