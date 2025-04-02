@@ -1,0 +1,5 @@
+print("Hello world!")
+print("Ca marche, youpi!!!")
+pre=input("Comment t'appelles-tu ? : ")
+print("")
+print("Ravi de faire ta connaissance", pre, ", moi c'est chatNOE, prêt à discuter avec toi!!!")
